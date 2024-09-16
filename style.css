@@ -140,5 +140,37 @@ li svg {
         justify-content: center;
         align-items: center;
     }
+
+    .first .div{
+        font-size: 36px;
+    }
+
+    .first .div2{
+        font-size: 18px;
+        width: 80vw;
+    }
+
+    .btn{
+        padding: 12px 18px;
+        font-size: 14px;
+    }
+
+    .large{
+        font-size: 24px;
+    }
+
+    .small{
+        font-size: 12px;
+    }
+
+    nav ul{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .item{
+        font-size: 18px;
+        padding: 15px;
+    }
 }
 
