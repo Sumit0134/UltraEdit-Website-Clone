@@ -2,7 +2,7 @@
 
 Check out the live version of the project here: [UltraEdit Website Clone](https://sumit0134.github.io/UltraEdit-Website-Clone/)
 
-![UltraEdit Logo](https://www.ultraedit.com/wp-content/uploads/2023/01/UE-Logo-1.webp)
+![UltraEdit Logo](logo.PNG)
 
 ## Overview
 
