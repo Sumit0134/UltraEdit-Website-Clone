@@ -18,7 +18,6 @@ nav ul {
 
 nav ul li {
     list-style: none;
-    display: flex;
     cursor: pointer;
 }
 
@@ -42,11 +41,11 @@ li svg {
     color: #222222;
 }
 
-.first .div1 img{
+.first .div1 img {
     margin: 0 10px;
 }
 
-.first .div2{
+.first .div2 {
     font-size: 24px;
     width: 55vw;
     text-align: center;
@@ -54,7 +53,7 @@ li svg {
     color: #222222;
 }
 
-.btn{
+.btn {
     padding: 15px 20px;
     font-weight: 700;
     background-color: #00b6d1;
@@ -65,26 +64,26 @@ li svg {
     margin: 10px 5px;
 }
 
-.btn-dwnld{
+.btn-dwnld {
     font-size: 14px;
 }
 
-.btn-dwnld:hover{
+.btn-dwnld:hover {
     background-color: #319eaf;
     transition: all 1s ease-out;
 }
 
-.btn a{
+.btn a {
     text-decoration: none;
     color: white;
 }
 
-.second{
+.second {
     max-width: 60vw;
     margin: auto;
 }
 
-.text{
+.text {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     gap: 10px;
@@ -92,23 +91,23 @@ li svg {
     padding-bottom: 25px;
 }
 
-.large{
+.large {
     font-size: 30px;
     padding-left: 10px;
 }
 
-.small{
+.small {
     font-size: 15px;
     padding-top: 5px;
 }
 
-.grid{
+.grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 15px;
 }
 
-.item{
+.item {
     background-color: #f9f9f9;
     border-radius: 6px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -117,60 +116,58 @@ li svg {
     padding: 20px;
 }
 
-.lang{
+.lang {
     font-weight: 700;
     padding-bottom: 10px;
 }
 
-.language1{
+.language1 {
     padding-bottom: 65px;
 }
 
-.language2{
+.language2 {
     padding-bottom: 40px;
 }
 
-.green{
+.green {
     background-color: #5cb85c;
 }
 
 @media screen and (max-width: 1100px) {
-    .grid{
+    .grid {
         grid-template-columns: 1fr;
         justify-content: center;
         align-items: center;
     }
 
-    .first .div{
+    .first .div1 {
         font-size: 36px;
     }
 
-    .first .div2{
+    .first .div2 {
         font-size: 18px;
-        width: 80vw;
     }
 
-    .btn{
+    .btn {
         padding: 12px 18px;
         font-size: 14px;
     }
 
-    .large{
+    .large {
         font-size: 24px;
     }
 
-    .small{
+    .small {
         font-size: 12px;
     }
 
-    nav ul{
-        flex-direction: column;
-        gap: 10px;
+    nav ul {
+        flex-direction: row;
+        font-size: 8px;
     }
 
-    .item{
+    .item {
         font-size: 18px;
         padding: 15px;
     }
 }
-
